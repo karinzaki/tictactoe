@@ -1,0 +1,13 @@
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 310px;
+  height: 310px;
+  position: absolute;
+}
+
+.cell {
+  border: 1px black solid;
+  text-align: center;
+  padding-top: 38px;
+}
