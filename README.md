@@ -10,7 +10,7 @@ Simple tic tac toe game between two players on a 3x3 board.
 - DOM Manipulation
 
 ## :video_game: Play the game
-[Go to -](https://karinzaki.github.io/tictactoe/)
+[Try the game here](https://karinzaki.github.io/tictactoe/)
 
 ## :mag_right: My experience
 - Used pseudocode to plan the project aims and actions
@@ -22,7 +22,7 @@ Simple tic tac toe game between two players on a 3x3 board.
   > Creating a reload/reset game function
 
 ## :camera_flash: Screenshot of Interface
-![](https://git.generalassemb.ly/karinzaki/tictactoe/blob/master/tictactoe-screenshot.png)
+![](https://github.com/karinzaki/tictactoe/blob/b1d97c35a66e6f8f093a08317eaf6330d9488a62/tictactoe-screenshot.png)
 
 ## :compass: Future Updates
 Add user names for each player
