@@ -1,13 +1,84 @@
+.player-selection {
+  display: grid;
+  grid-template-columns: repeat(2, 90px);
+  width: 170px;
+  height: 50px;
+  position: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 15px auto;
+}
+
+.player-X, .player-O {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
 .game-grid {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  width: 310px;
-  height: 310px;
-  position: absolute;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(3, 120px);
+  column-gap: 15px;
+  row-gap: 15px;
+  width: 490px;
+  height: 490px;
+  position: center;
+  margin: 20px auto 60px;
+  background-color: antiquewhite;
+  justify-content: center;
+  align-content: center;
+  border-radius: 60px;
+  margin-bottom: 0px;
 }
 
 .cell {
+  display: flex;
   border: 1px black solid;
   text-align: center;
-  padding-top: 38px;
+  font-size: 80px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: transparent!important;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  text-shadow: -0.6px -0.6px 0 rgb(139, 138, 138);
+  color: rgb(255, 123, 0);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: rgb(245, 224, 197);
+}
+
+.reset-btn {
+  display: grid;
+  grid-template-columns: 60px;
+  justify-content: center;
+  position: center;
+}
+
+.reset {
+  height: 40px;
+  width: 70px;
+  font-size: 18px;
+  border-radius: 8px;
 }
